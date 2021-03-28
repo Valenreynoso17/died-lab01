@@ -100,4 +100,8 @@ public class Temperatura {
 		
 		return resultado;
 	}
+	
+	public boolean mayorA(Temperatura temp) {
+		return this.asCelcius() > temp.asCelcius();
+	}
 }
